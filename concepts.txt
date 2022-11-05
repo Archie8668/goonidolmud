@@ -1,0 +1,71 @@
+Incremental game concepts
+
+
+"The Land of Peace"
+
+Think: Kittens Game, A Dark Room
+
+Alone in a vast forest and all you have are an axe and a tent. Chop down trees, dig up stones, harvest plants, hunt wildlife. Build a home in this mysterious forest and use it as a base for further exploration.
+Find broken robots and fix them to do work for you, increasing your productivity and unlocking new options.
+Uncover the secrets of the Land of Peace. Maybe that last part isn't so important. But there needs to be an explanation for the robots if we're gonna have them and trust me, we want the robots.
+
+
+"Explorer" (Co-idea with X)
+
+Think: Amaranthine, Trimps maps
+
+There's a great big world out there but it's dangerous. Learn a trade in the only city on the frontier, earn some money, purchase or produce equipment, and go out on expeditions to get even richer.
+Explore randomly-generated dungeons, fight enemies, discover precious resources and treasure, and even pick up some lore.
+Managing the logistics of getting there and back again is just as important as knowing how to stab things to death, so don't skimp on the rations and blankets.
+Multiplayer hook: Craft for your friends and have an offline progress system where people can recruit a copy of you as a hireling and you get a share of the loot and exp.
+
+
+"Star Lords"
+
+Think: Amaranthine in space
+
+Citizen-crew member in a worldship and its fleet of escorts, flying through space while plundering star systems and fighting hostile aliens.
+Contribute to the operation of the fleet and thus to its glorious victories.
+Work and level up to escape from drudgery and become a great engineer, scientist, adventurer, soldier, pilot, or officer.
+Join a battalion and participate in expeditions to explore strange worlds, fly a freighter to a gas giant to collect hydrogen, or man the turret of a battleship to protect your people.
+Multiplayer hook: Battalions compete to achieve the most during events and outshine their fellow players.
+
+
+"Wizard Tower Simulator"
+
+Think: Sim Tower, 4X games
+
+You're a wizard and you're alone. Channel your power to raise a basalt tower from the sea floor off the coast from the post-apocalyptic San Francisco.
+Populate your tower with artifacts, workers, and weapons. Deploy your forces to fight for territory and defeat wild beasts, bandits, and worse.
+Will you carve a utopia out of the wasteland and redeem humanity, or exercise brutality over your subjects to grow your wealth and power to the limit?
+
+
+"Memento Mori" (This is a joke name we might have to change it)
+
+Think: Raid Shadow Legends
+
+Gothic horror RPG where you lead heroes in fighting evil across a land threatened bythe  darkness. Bandits and thieves, ghosts and goblins, devils and demons.
+Assemble teams to banish them to Hell and save the peoples. Prevail by choosing party members who can handle what your expected opponents will use against them.
+Instead of a typical status effect system, your party has morale and emotions (hence the reference to OMORI). Enemies can inspire fear, anger, or even avarice to control your party.
+Classes respond differently to different feelings, and some characters will have special abilities while in a certain emotional state; an Exorcist might be resistant to fear and crit more often when attacking ghosts
+when feeling encouraged, while a Demon Slayer will become incredibly powerful and frighten corporeal enemies when enraged. Adventurers can spot traps in dungeons and Scholars can analyze treasure to
+recognize blessed or cursed artifacts.
+
+
+"It's a Village Builder Sim I guess" (Co-idea with X) (Another one of those names that really needs to be changed)
+
+Think: Banished, Dwarf Fortress, Songs of Syx, Tribal Wars (sans pvp), The Horde. Remember The Horde? It was pretty obscure.
+
+A natural(?)(???)(?!?!?!) disaster messed up your medieval fantasy village pretty badly and the lord you served as an advisor totally bit it when a rock fell on him.
+Everybody trusts you regardless so take charge as the mayor to rebuild and re-establish contact with the outside world.
+Multiplayer hook: Make friends with other mayors to help each other and contribute towards grand projects in the royal capital for rewards and regal regard.
+
+
+"Some Game With Elemental Affinity or Humours We Never Did Figure That Out) (co-idea with X)
+
+Think: Amaranthine
+
+Medieval Fantasy game where you harvest stuff, but you have some kind of elemental affinity system? And fatigue? So your experience sucks if you do the same activity for too long?
+I don't remember if this ever turned into a full-fledged game idea. I think there was something about every player being a wizard and you're trying to build a tower for yourself.
+You'd probably choose between being balanced so you can be versatile and mostly self-sufficient, or specializing in one element so you can be the best at activities involving that element.
+Multiplayer hook: People can trade or share the things they're best at getting.
