@@ -1,0 +1,53 @@
+/* Basic stuff */
+:root {
+    --background-color: #101010;
+    --text-color: #bbbbbb;
+    --text-link-color: #ffffff;
+    --text-highlight-color: #dddddd;
+}
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Navbar stuff */
+#nav-bar > ul > li > a {
+    color: var(--text-link-color);
+    text-decoration: none;
+}
+
+/* Content stuff */
+h1, h2, h3 {
+    color: var(--text-highlight-color);
+}
+h2.game-title::before, h2.game-title::after {
+    content: "\"";
+}
+h3.co-idea::before {
+    content: "Co-idea with: ";
+}
+h5.title-aside {
+    font-size: 0.8rem;
+}
+h5.title-aside::before {
+    content: "(";
+}
+h5.title-aside::after {
+    content: ")";
+}
+section > p::before {
+    color: var(--text-highlight-color);
+    font-size: 1.5rem;
+}
+p.think::before {
+    content: "Think: ";
+}
+p.overview::before {
+    content: "Overview: ";
+}
+p.basic-gameplay::before {
+    content: "Basic Gameplay: ";
+}
