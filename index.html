@@ -6,11 +6,11 @@
         <title>Incremental game ideas</title>
     </head>
     <body>
-        <h1>Incremental game ideas</h1>
+        <h1>Incremental Game Ideas</h1>
         <navbar id="nav-bar">
             <h2>Table of Contents</h2>
             <ul>
-                <li><a href="#land-of-peace">The Land of Peace</a></li>
+                <li><a href="#land-of-peace">The Land of Peace</a><!--<a href="./land-of-peace/index.html" target="_blank">(Try game here)</a>--></li>
                 <li><a href="#explorers">Explorers</a></li>
                 <li><a href="#star-lords">Star Lords</a></li>
                 <li><a href="#wizard-tower-simulator">Wizard Tower Simulator</a></li>
@@ -18,13 +18,31 @@
                 <li><a href="#village-builder">Village Builder</a></li>
                 <li><a href="#elemental-wizards">That Game With Elements In It</a></li>
                 <li><a href="#lets-ragnarock">Let's Ragnarock!</a></li>
+                <li><a href="#merchant-prince-idle">Merchant Prince Idle</a></li>
             </ul>
         </navbar>
         <section class="game-idea" id="land-of-peace">
             <h2 class="game-title">The Land of Peace</h2>
             <p class="think">Kittens Game, A Dark Room, Avabur</p>
-            <p class="overview">Alone in a vast forest and all you have are an axe and a tent. Chop down trees, dig up stones, harvest plants, hunt wildlife. Build a home in this mysterious forest and use it as a base for further exploration. Find broken robots and fix them to do work for you, increasing your productivity and unlocking new options. Uncover the secrets of the Land of Peace. Maybe that last part isn't so important. But there needs to be an explanation for the robots if we're gonna have them and trust me, we want the robots.</p>
-            <p class="basic-gameplay">Click on activity buttons to assign a worker to continuously perform that action. At first you're the only available worker but as you find and activate worker robots, they'll be assignable to tasks so you can do more at once.</p>
+            <p class="overview">Alone in a vast forest and all you have are an axe and a tent. Chop down trees, dig up stones, harvest plants, hunt wildlife. Build a home in this mysterious forest and use it as a base for further exploration. Find broken mechanisms and fix them to do work for you, increasing your productivity and unlocking new options. Uncover the secrets of the Land of Peace. Maybe that last part isn't so important. But there needs to be an explanation for the mechanisms if we're gonna have them and trust me, we want the mechanisms.</p>
+            <p class="basic-gameplay">Click on activity buttons to assign a worker to continuously perform that action. At first you're the only available worker but as you find and activate mechanisms, they'll be assignable to tasks so you can do more at once.</p>
+            <figure class="img-span">
+                <a href="./land-of-peace-first-attempt.png" target="_blank"><img src="./land-of-peace-first-attempt.png" alt="" /></a>
+                <figcaption>An early development screen showing attributes and inventory, a few action buttons, and a list of game messages.</figcaption>
+            </figure>
+            <p class="stat-stuff">The player's stats can be divided into four categories:
+                <ol>
+                    <li>Attributes - Stats intrinsic to the player. Stamina is the most important because it governs how long it takes to perform work. Having a better home increases maximum stamina and stamina recovery.</li>
+                    <li>Stocks - Bulk resources that the player can collect. Logs, rocks, ores, and crystals. Mostly used to build or upgrade the player's house. Most require tools to obtain, and the player can build other tools such as carts to aid in their collection. There are two kinds of stock resources: rough and refined. Rough resources are easily obtained, while refined versions of those resources require more specialized tools or workshops to produce.</li>
+                    <li>Inventory - Equipment and supplies that the player carries on their person. Tools are used to harvest or work resources. Having food on hand reduces stamina loss when working. Other equipment can be used to gate player progress, such as light sources or special clothing.</li>
+                    <li>Housing - Keeps track of what upgrades and additions have been made to the player's shelter.</li>
+                </ol>
+            </p>
+            <p class="gameplay-progression">When starting a new game, the player sees a window with a few buttons. Some are housekeeping buttons like Options. At first the player can see "Rest by the Fire", "Explore", and "Chop Wood" buttons. Clicking on one of these buttons causes the player to continually perform the associated action. The player can rest to recover stamina, then explore or chop wood to spend a given amount of stamina to gain either resources or knowledge of the game world. The player will need to use what they find to construct a progressively better and more impressive home, which will provide better shelter and more rest. Thus will the player character gain more max stamina to overcome greater challenges. The player-character's home also provides space for storage for resources and workshops to process them. Uncovering new resources and building workshops to make use of them is essential to completing the game.</p>
+            <figure class="img-span">
+                <a href="./land-of-peace-second.png" target="_blank"><img src="./land-of-peace-second.png" alt="" /></a>
+                <figcaption>A more polished interface, showing more options available to the player as they progress.</figcaption>
+            </figure>
         </section>
         <section class="game-idea" id="explorers">
             <h2 class="game-title">Explorers</h2>
@@ -35,8 +53,17 @@
         <section class="game-idea" id="star-lords">
             <h2 class="game-title">Star Lords</h2>
             <p class="think">Amaranthine but in space</p>
-            <p class="overview">Citizen-crew member in a worldship and its fleet of escorts, flying through space while plundering star systems and fighting hostile aliens. Contribute to the operation of the fleet and thus to its glorious victories. Work and level up to escape from drudgery and become a great engineer, scientist, adventurer, soldier, pilot, or officer. Join a battalion and participate in expeditions to explore strange worlds, fly a freighter to a gas giant to collect hydrogen, or man the turret of a battleship to protect your people. Multiplayer hook: Battalions are player guilds and they compete to achieve the most during events and outshine their fellow players. Hijinks are also a possibility?</p>
-            <p class="basic-gameplay">Perform "actions" that require a certain amount of time as shown by a countdown on the player's screen. Every time the countdownr reaches zero, the action is completed and something happens. Usually, it means the player character made progress on a task and gained experience. Depending on the task other things might happen. Bad things. Good things. Action availability depends on player character location, skill, equipment, etc. The game begins with you in a ready room, on your first day as a crew member. You can try fixing the guts of the worldship (engineering), working the soil in hydroponics (science), patrolling the decks looking for problems and goodies (adventure), keeping peace in a bar or rec room (soldiering), or assisting a navigator of probes (piloting). As your character gains levels in skills, they will be directed towards more challenging activities suitable to their level.</p>
+            <p class="overview">Citizen-crew member in a worldship and its fleet of escorts, flying through space while plundering star systems and fighting hostile aliens. Contribute to the operation of the fleet and thus to its glorious victories. Work and level up to escape from drudgery and become a great engineer, scientist, adventurer, soldier, pilot, or officer. Join a battalion and participate in expeditions to explore strange worlds, fly a freighter to a gas giant to collect hydrogen, or man the turret of a battleship to protect your people. Multiplayer hook: Battalions are player guilds and players compete to achieve the most during events and outshine rival battalions. Hijinks are also a possibility?</p>
+            <p class="basic-gameplay">Perform "actions" that require a certain amount of time as shown by a countdown on the player's screen. Every time the countdown reaches zero, the action is completed and something happens. Usually, it means the player character made progress on a task and gained experience. Depending on the task other things might happen. Bad things. Good things. Action availability depends on player character location, skill, equipment, etc. The game begins with you in a ready room, on your first day as a crew member. You can try fixing the guts of the worldship (engineering), working the soil in hydroponics (science), patrolling the decks looking for problems and goodies (adventure), keeping peace in a bar or rec room (soldiering), or assisting a navigator of probes (piloting). As your character gains levels in skills, they will be directed towards more challenging activities suitable to their level.</p>
+            <p class="stat-stuff">
+                <ul>
+                    <li>Health - The physical integrity of your body. Zero health means you die and have to reclone in a cloning tank. Combat isn't the only thing that can deplete health. Accidents happen, even during routine work. Maintaining Health is important for all characters and it's possible to equip auto-use healing equipment. However, dying and recloning may be an essential part of "leveling up" so we need to give players control over when they use those items. Basically, it's like a prestige system in an idle game, where restarting means you're weaker but have higher potential on your next life. An important point to this system is encouraging players to engage in risky activity that might otherwise frighten those who are risk-averse.</li>
+                    <li>Energy - Physical and mental stamina. Needed to do work. Strongly resembles Stamina in Avabur. You have a certain amount of max Energy and every time you perform an action it goes down by 1. Once Energy enters into the negatives your action timer gets longer and longer. Restoring Energy is as simple as the player pressing a button, again a la Avabur. This is their equivalent of a "botcheck" and I find it preferable to Amar's for a variety of reasons.</li>
+                    <li>Level - A general measure of character competence. A character with a higher Level is considered to be more powerful and thus useful. Certain in-game privileges may be gated behind Level as lore allows, such as access to certain locations and equipment.</li>
+                    <li>Skills - More specific measures of character competence. A character with higher levels in skills relevant to the action being performed will do better, generally. This mainly manifests in the form of lower timers and higher success rates. Skills are leveled by performing relevant actions but there should be diminishing returns based on the difficulty of the task. An easy task should give less exp, basically.</li>
+                    <li>Rank - Represents the amount of regard that friendly NPCs have for the player character. Accomplish deeds great and small to gain rank. Gain rank to unlock more privileges.</li>
+                </ul>
+            </p>
         </section>
         <section class="game-idea" id="wizard-tower-simulator">
             <h2 class="game-title">Wizard Tower Simulator</h2>
@@ -47,15 +74,15 @@
         </section>
         <section class="game-idea" id="memento-mori">
             <h2 class="game-title">Memento Mori</h2>
-            <h5 class="title-aside">(This is a joke name we might have to change it)</h5>
-            <p class="overview">Gothic horror RPG where you lead heroes in fighting evil across a land threatened by the darkness. Bandits and thieves, ghosts and goblins, devils and demons. Assemble teams to banish them to Hell and save the peoples. Prevail by choosing party members who can handle what your expected opponents will use against them. Instead of a typical status effect system, your party has morale and emotions (hence the reference to OMORI). Enemies can inspire fear, anger, or even avarice to control your party. Classes respond differently to different feelings, and some characters will have special abilities while in a certain emotional state. Possible examples: an Exorcist might be resistant to fear and crit more often when attacking ghosts when feeling brave, while a Demon Slayer will become incredibly powerful and frighten corporeal enemies when enraged. Adventurers can spot traps in dungeons and Scholars can analyze treasure to recognize blessed or cursed artifacts.</p>
+            <h5 class="title-aside">This name is already in use by a so-called "AFKRPG" so we need to change it</h5>
+            <p class="overview">Gothic horror RPG where you lead heroes in fighting evil across a land threatened by the darkness. Bandits and thieves, ghosts and goblins, devils and demons. Assemble teams to banish them to Hell and save the peoples. Prevail by choosing party members who can handle what your expected opponents will use against them. Instead of a typical status effect system, your party has morale and emotions (hence the reference to OMORI). Enemies can inspire fear, anger, or even avarice to control your party. Classes respond differently to different feelings, and some characters will have special abilities while in a certain emotional state. Possible examples: an Exorcist might be resistant to fear and crit more often when attacking ghosts when feeling brave, while a Demon Slayer will become incredibly powerful and frighten most enemies when enraged. Adventurers can spot traps in dungeons and Scholars can analyze treasure to recognize blessed or cursed artifacts.</p>
             <p class="basic-gameplay">You start in "town" where you can check your roster; buy, sell, or craft equipment; or look at missions. Missions can be as simple as standing guard overnight, patrolling around the outskirts, or escorting a caravan. Harder missions involve ruins explorations and dungeon dives.</p>
         </section>
         <section class="game-idea" id="village-builder">
             <h2 class="game-title">Village Builder</h2>
             <h5 class="title-aside">This title is awful</h5>
             <h3 class="co-idea">X</h3>
-            <p class="overview">A natural(?)(???)(?!?!?!) disaster messed up your medieval fantasy village pretty badly and the lord you served as an advisor totally bit it when a rock fell on him. Everybody trusts you regardless so take charge as the mayor to rebuild and re-establish contact with the outside world and then the royal capital. And then you find things are bad all over.Multiplayer hook: Make friends with other mayors to help each other and contribute towards grand projects in the royal capital for rewards and regal regard.</p>
+            <p class="overview">A natural(?)(???)(?!?!?!) disaster messed up your medieval fantasy village pretty badly and the lord you served as an advisor totally bit it when a rock fell on him. Everybody trusts you regardless so take charge as the mayor to rebuild and re-establish contact with the outside world and then the royal capital. And then you find things are bad all over. Multiplayer hook: Make friends with other mayors to help each other and contribute towards grand projects in the royal capital for rewards and regal regard.</p>
         </section>
         <section class="game-idea" id="elemental-wizards">
             <h2 class="game-title">Some Game With Elemental Affinity or Humours We Never Did Figure That Out</h2>
@@ -68,14 +95,22 @@
             <h5 class="title-aside">Not a great title but I like the tone it conveys</h5>
             <p class="overview">You're Odin and you need to prepare for the war to end the world. Build up your mead hall, recruit valkyries to collect the spirits of warriors, train them up and equip them. The prestige system involves fighting Ragnarok proper and getting better rewards as you progress further and reset. Possible extended prestige idea: What if you decided to tilt the odds in your favor by delaying the end? Progress through history to bring in more warriors or more advanced technology to help you in the final fight.</p>
         </section>
+        <section class="game-idea" id="merchant-prince-idle">
+            <h2 class="game-title">Merchant Prince Idle</h2>
+            <p class="think">Merchant Prince, Uncharted Waters</p>
+            <p class="overview">You're a medieval (or maybe Renaissance) merchant ship captain and you can captain it up on the high seas. Buy and sell, plot a course, let the game sail you around. Set up automatic trade routes to take advantage of supply and demand and watch the money roll in. Invest in more ships to automatically trade in your name and earn even more money. Pay explorers to find new lands and mercenaries to fight pirates.</p>
+        </section>
 
         <!--  TEMPLATE FOR NEW ENTRIES
         <section class="game-idea" id="FILL IN">
             <h2 class="game-title">TITLE</h2>
             <h5 class="title-aside">USE THIS SPACE TO NOTE IF A TITLE IS A WORK IN PROGRESS</h5>
             <h3 class="co-idea">REMOVE THIS IF IT'S ALL MY IDEA</h3>
+            <p class="think">COMPARISONS TO OTHER GAMES GO HERE</p>
             <p class="overview">OVERVIEW</p>
             <p class="basic-gameplay">BASIC GAMEPLAY POINTS</p>
+            <p class="stat-stuff">STUFF ABOUT NUMBERS FOR THE PLAYER TO ENJOY</p>
+            <p class="gameplay-progression">AN EXAMPLE OF A BLOW-BY-BLOW ACCOUNT OF HOW YOU WOULD PLAY THE GAME</p>
         </section>
         -->
     </body>

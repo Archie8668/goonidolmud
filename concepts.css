@@ -1,7 +1,7 @@
 /* Basic stuff */
 :root {
-    --background-color: #101010;
-    --text-color: #bbbbbb;
+    --background-color: #101030;
+    --text-color: #dddddd;
     --text-link-color: #ffffff;
     --text-highlight-color: #dddddd;
 }
@@ -10,7 +10,9 @@ body {
     color: var(--text-color);
     font-family: Tahoma, sans-serif;
     font-size: 18px;
-    padding: 20px;
+    padding: 5px;
+    margin: 20px;
+    line-height: 1.5;
 }
 
 /* Navbar stuff */
@@ -20,6 +22,31 @@ body {
 }
 
 /* Content stuff */
+.game-idea {
+    border: 3px double gray;
+    border-radius: 10px;
+    margin: 20px;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 5px darkblue;
+}
+/* Image stuff */
+.img-span {
+    display: block;
+    margin: 30px auto;
+    text-align: center; /* This is default and can be overridden */
+}
+img {
+    border: 3px solid white;
+    max-width: 450px;
+}
+figcaption {
+    font-size: 12px;
+}
+
+/* Headers */
+h1, h2, h3, h5 {
+    text-align: center;
+}
 h1, h2, h3 {
     color: var(--text-highlight-color);
 }
@@ -42,6 +69,9 @@ section > p::before {
     color: var(--text-highlight-color);
     font-size: 1.5rem;
 }
+p {
+    margin: 10px 50px;
+}
 p.think::before {
     content: "Think: ";
 }
@@ -50,4 +80,14 @@ p.overview::before {
 }
 p.basic-gameplay::before {
     content: "Basic Gameplay: ";
+}
+p.stat-stuff::before {
+    content: "Stats: ";
+}
+ul, ol {
+    position: relative;
+    padding: 0 100px;
+}
+p.gameplay-progression {
+    content: "Expected Gameplay Progression: ";
 }
